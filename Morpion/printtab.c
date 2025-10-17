@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
+#include <unistd.h>
 #include "tic-tac-toe.h"
 
 void printtab(char tab[2][2]) 
