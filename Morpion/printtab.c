@@ -3,7 +3,7 @@
 #include <unistd.h>
 #include "tic-tac-toe.h"
 
-void printtab(char tab[2][2]) 
+void printtab(char tab[3][3]) 
 {
     printf("\n");
     printf(" %c | %c | %c\n", tab[0][0],tab[0][1], tab[0][2]);

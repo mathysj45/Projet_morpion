@@ -5,6 +5,8 @@ NAME = Morpion
 SRCS = main.c \
 	inittab.c \
 	printtab.c \
+	endgame.c \
+	win.c
 
 all: $(NAME)
 

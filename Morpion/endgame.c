@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include "tic-tac-toe.h"
  
-int endgame(char tab[2][2]) 
+int endgame(char tab[3][3]) 
 {
     // Vérifie les lignes et les colonnes
     for (int i = 0; i < 3; i++) 
@@ -20,5 +20,3 @@ int endgame(char tab[2][2])
 
     return 0;
 }
-
-
