@@ -3,6 +3,7 @@
 #include <unistd.h>
 #include "tic-tac-toe.h"
 
+// Affiche le tableau du morpion
 void printtab(char tab[3][3]) 
 {
     printf("\n");
